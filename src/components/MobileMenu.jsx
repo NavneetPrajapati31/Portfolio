@@ -59,6 +59,17 @@ export default function MobileMenu({ menuOpen, setMenuOpen }) {
       >
         Contact
       </a>
+
+      <a
+        href="https://github.com/NavneetPrajapati31"
+        onClick={() => setMenuOpen(false)}
+        className={`text-lg font-semibold text-white my-4 transform transition-transform duration-300 
+            ${
+              menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+            }`}
+      >
+        Github
+      </a>
     </div>
   );
 }

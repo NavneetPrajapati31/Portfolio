@@ -1,4 +1,5 @@
 import RevealOnScreen from "../RevealOnScreen";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Projects() {
   return (
@@ -44,12 +45,18 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <a
                   href="https://kashvi-creation-psi.vercel.app/"
-                  className="text-sm my-4 bg-blue-700 text-white py-2 px-4 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0,4)]"
+                  className="text-sm my-4 me-2 bg-blue-700 text-white py-2 px-4 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0,4)]"
                 >
                   View Project
+                </a>
+                <a
+                  href="https://github.com/NavneetPrajapati31/THE_MATRIX-GWOC25.git"
+                  className="text-sm my-4 bg-blue-700 text-white py-2 px-4 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0,4)]"
+                >
+                  <GitHubIcon fontSize="small" />
                 </a>
               </div>
             </div>
@@ -82,12 +89,18 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex items-center">
                 <a
                   href="https://localeluxe.onrender.com/"
-                  className="text-sm my-4 bg-blue-700 text-white py-2 px-4 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0,4)]"
+                  className="text-sm my-4 me-2 bg-blue-700 text-white py-2 px-4 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0,4)]"
                 >
                   View Project
+                </a>
+                <a
+                  href="https://github.com/NavneetPrajapati31/LocaleLuxe.git"
+                  className="text-sm my-4 bg-blue-700 text-white py-2 px-4 rounded-full font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0,4)]"
+                >
+                  <GitHubIcon fontSize="small" />
                 </a>
               </div>
             </div>

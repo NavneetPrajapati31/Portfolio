@@ -45,6 +45,12 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             >
               Contact
             </a>
+            <a
+              href="https://github.com/NavneetPrajapati31"
+              className="border border-blue-700/50 text-blue-700 py-1 px-3 rounded font-medium transition-all duration-200 hover:shadow-[0_0_15px_rgba(59,130,246,0,2)] hover:bg-blue-700 hover:text-white"
+            >
+              Github
+            </a>
           </div>
         </div>
       </div>

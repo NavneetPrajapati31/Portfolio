@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function LoadingScreen({ onComplete }) {
   const [text, setText] = useState("");
-  const fullText = "<Hello World!/>";
+  const fullText = "<Hello World/>";
 
   useEffect(() => {
     let index = 0;

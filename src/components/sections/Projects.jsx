@@ -19,7 +19,7 @@ export default function Projects() {
               {/* Removed the empty div */}
               <div className="rounded-md mb-3">
                 <img
-                  src="/Portfolio/public/Screenshot 2025-03-10 000157.png"
+                  src="/Portfolio/Screenshot 2025-03-10 000157.png"
                   alt="KASHVI"
                   className="w-full h-auto rounded-md object-cover max-h-48 md:max-h-62" // Added object-cover and max-h
                 />
@@ -72,7 +72,7 @@ export default function Projects() {
               {/* Add image here */}
               <div className="rounded-md mb-3">
                 <img
-                  src="/Portfolio/public/Screenshot 2025-03-10 000330.png" // add your image here
+                  src="/Portfolio/Screenshot 2025-03-10 000330.png" // add your image here
                   alt="LocaleLuxe"
                   className="w-full h-auto rounded-md object-cover max-h-48 md:max-h-62" // Added object-cover and max-h
                 />

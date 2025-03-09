@@ -8,7 +8,7 @@ export default function Projects() {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScreen>
-        <div className="max-w-5xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
@@ -16,6 +16,14 @@ export default function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-700/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2 ">Ecommerce Website</h3>
+              {/* Removed the empty div */}
+              <div className="rounded-md mb-3">
+                <img
+                  src="/Portfolio/public/Screenshot 2025-03-10 000157.png"
+                  alt="KASHVI"
+                  className="w-full h-auto rounded-md object-cover max-h-48 md:max-h-62" // Added object-cover and max-h
+                />
+              </div>
               <p className="text-gray-400 mb-5">
                 KASHVI is a sleek and user-friendly e-commerce platform
                 dedicated to sarees, offering a seamless shopping experience
@@ -44,7 +52,6 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-
               <div className="flex items-center">
                 <a
                   href="https://kashvi-creation-psi.vercel.app/"
@@ -62,6 +69,15 @@ export default function Projects() {
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-700/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2 ">Rental Marketplace</h3>
+              {/* Add image here */}
+              <div className="rounded-md mb-3">
+                <img
+                  src="/Portfolio/public/Screenshot 2025-03-10 000330.png" // add your image here
+                  alt="LocaleLuxe"
+                  className="w-full h-auto rounded-md object-cover max-h-48 md:max-h-62" // Added object-cover and max-h
+                />
+              </div>
+
               <p className="text-gray-400 mb-5">
                 LocaleLuxe is a modern platform designed to connect travelers
                 with unique stays and rental properties. It offers a seamless

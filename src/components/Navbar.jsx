@@ -20,7 +20,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             &#9776;
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <a
               href="#home"
               className="text-gray-300 hover:text-white transition-colors"
@@ -44,6 +44,12 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               className="text-gray-300 hover:text-white transition-colors"
             >
               Contact
+            </a>
+            <a
+              href="https://www.linkedin.com/in/navneet-prajapati-640345290/"
+              className="border border-blue-700/50 text-blue-700 py-1 px-3 rounded font-medium transition-all duration-200 hover:shadow-[0_0_15px_rgba(59,130,246,0,2)] hover:bg-blue-700 hover:text-white"
+            >
+              LinkedIn
             </a>
             <a
               href="https://github.com/NavneetPrajapati31"

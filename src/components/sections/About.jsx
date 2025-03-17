@@ -1,7 +1,15 @@
 import RevealOnScreen from "../RevealOnScreen";
 
 export default function About() {
-  const frontendSkills = ["React", "TailwindCSS", "Bootstrap", "MUI"];
+  const frontendSkills = [
+    "React",
+    "Next.js",
+    "Typescript",
+    "TailwindCSS",
+    "Bootstrap",
+    "MUI",
+    "Shadcn UI",
+  ];
 
   const backendSkills = [
     "Node.js",
